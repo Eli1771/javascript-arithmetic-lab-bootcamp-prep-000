@@ -8,6 +8,12 @@ function divideBy3() {
   number /= 3
 }
 
+function makeInt(n) {
+  return parseInt(n)
+}
+
+
+
 divideBy3()
 
 console.log(number)
